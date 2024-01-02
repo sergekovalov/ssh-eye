@@ -1,12 +1,6 @@
 import { App } from "electron"
-import fs from "node:fs"
+import { AppConfig } from "./utils/app-config"
 
 export default function (app: App) {
-  const config = fs.readFileSync(app.getPath('userData'), "utf-8")
-
-  if(!config) {
-    
-  }
-
-  console.log(">>>", )
+  new AppConfig(app);
 }
