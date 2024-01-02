@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer } from 'electron';
 
 contextBridge.exposeInMainWorld('electronAPI', {
-  test: () => ipcRenderer.send('test')
+  getConnections: () => ipcRenderer.send('get:connections')
 })

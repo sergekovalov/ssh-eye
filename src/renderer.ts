@@ -7,6 +7,4 @@ import './index.css';
 
 const pinia = createPinia();
 
-// window.electronAPI.test()
-
 createApp(App).use(pinia).use(Primevue).mount('#app');

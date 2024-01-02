@@ -9,7 +9,6 @@ export default defineConfig({
     mainFields: ['module', 'jsnext:main', 'jsnext'],
     alias: {
       '@be': path.resolve(__dirname, './src/be'),
-      '@fe': path.resolve(__dirname, './src/fe'),
     }
   },
 });
