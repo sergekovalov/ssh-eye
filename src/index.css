@@ -1,8 +1,10 @@
+@import 'primevue/resources/themes/lara-light-green/theme.css';
 @import 'primeicons/primeicons.css';
 @import 'primeflex/primeflex.css';
 
 
-:root {
-    margin: 0;
-    padding: 0;
+html, body, [data-v-app] {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
